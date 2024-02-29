@@ -34,7 +34,7 @@ main{
 }
 .link{
     display: flex;
-    color: #fff;
+    color: white;
     padding: 10px 15px;
     gap: 15px;
     transition: all 0.5s;
@@ -43,16 +43,18 @@ main{
     background:#D5E5DE;
     color: #065C61;
     transition: all 0.5s;
-   
 }
 .active{
-    background: white;
-    color:white;
-    border-radius: 0px 10px 10px 0px;
-    width: 0.00001em;
-    padding: 0px 0px 0px -1px;
-    margin: 0px 0px 0px -10px;
+    background:white;
+    color: #065C61;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
+
+
+
+
+
 .icon, .link_text{
     font-size: 20px;
 }
